@@ -1,0 +1,260 @@
+// ================
+// VARIABLES
+// ================
+
+// Paleta de colores
+$just-orange: #f2622e;
+$dark-blue: #0c1633;
+$ocean-blue: #1f92bf;
+$just-white: #ffff;
+$dark-black__text: #1e1e1e;
+$black-soft__text: #6b7280;
+
+// TIPOGRAFÍA
+
+// Font sizes
+$small: 1.1rem;
+$normal: 1.4rem;
+$large: 1.6rem;
+
+// Font weights
+$thin: 100;
+$light: 300;
+$regular: 400;
+$bold: 700;
+
+// Agregando estilos...
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 62.5%;
+}
+
+// header styles
+
+@mixin timerBlockStyles() {
+  color: $just-white;
+  font: {
+    size: 2rem;
+    weight: $bold;
+  }
+}
+@mixin centerText() {
+  text-align: center;
+  color: $just-white;
+}
+
+header {
+  background-color: $just-orange;
+  display: grid;
+  justify-items: center;
+  clip-path: polygon(0 0, 100% 0, 100% 88%, 50% 100%, 0 88%);
+
+  padding: {
+    top: 110px;
+    bottom: 60px;
+  }
+
+  p:first-child {
+    @include centerText();
+    max-width: 770px;
+    font: {
+      weight: $regular;
+      size: $large;
+    }
+  }
+  p:nth-child(2) {
+    @include centerText();
+    width: 270px;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin: 18px auto;
+    padding: 8px;
+    border-radius: 8px;
+    font: {
+      size: $small;
+      weight: $regular;
+    }
+  }
+}
+.discount-container {
+  width: 100%;
+  background-color: $dark-blue;
+  position: fixed;
+  top: 0;
+  padding: 10px 0;
+  z-index: 1;
+  h1 {
+    @include centerText();
+    font-weight: 300;
+  }
+  .discount__timer-container {
+    padding-top: 10px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    .block {
+      text-align: center;
+      background-color: $just-orange;
+      border-radius: 6px;
+      min-width: 90px;
+      padding-bottom: 2px;
+      .hours {
+        @include timerBlockStyles();
+      }
+      .minutes {
+        @include timerBlockStyles();
+      }
+      .seconds {
+        @include timerBlockStyles();
+      }
+      p {
+        color: $just-white;
+        font: {
+          size: 1rem;
+          weight: $regular;
+        }
+      }
+    }
+  }
+}
+
+// ========================
+// SECTION #1 Styles
+// ========================
+
+.section1 {
+  display: grid;
+  justify-items: center;
+  .video-title {
+    max-width: 570px;
+    color: $dark-black__text;
+    font: {
+      weight: $bold;
+      size: 1.6rem;
+    }
+    text: {
+      align: center;
+      transform: uppercase;
+    }
+    padding: {
+      top: 16px;
+      bottom: 14px;
+    }
+  }
+  video {
+    width: 90%;
+    max-width: 520px;
+  }
+  h2 {
+    max-width: 415px;
+    text-align: center;
+    font-size: 1.6rem;
+    color: $dark-black__text;
+    margin: 15px 0;
+  }
+  .benefit-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+
+    @mixin spanStyles() {
+      content: "";
+      display: block;
+      margin: 0 auto;
+      background: {
+        position: center;
+        repeat: no-repeat;
+        size: cover;
+      }
+    }
+    @mixin h1_benefitStyles() {
+      color: $just-orange;
+      padding: {
+        top: 5px;
+        bottom: 6px;
+      }
+      font: {
+        size: $normal;
+        weight: bold;
+      }
+    }
+    @mixin p_benefitStyles() {
+      max-width: 320px;
+      color: $black-soft__text;
+      font: {
+        size: $small;
+        weight: 300;
+      }
+    }
+
+    .benefit1 {
+      span {
+        @include spanStyles();
+        background-image: url("/assets/icons/laptop-code.svg");
+        width: 64px;
+        height: 50px;
+      }
+      h1 {
+        @include h1_benefitStyles();
+      }
+      p {
+        @include p_benefitStyles();
+      }
+    }
+    .benefit2 {
+      span {
+        @include spanStyles();
+        background-image: url("/assets/icons/code-icon.svg");
+        width: 62px;
+        height: 50px;
+      }
+      h1 {
+        @include h1_benefitStyles();
+      }
+      p {
+        @include p_benefitStyles();
+      }
+    }
+    .benefit3 {
+      span {
+        @include spanStyles();
+        background-image: url("/assets/icons/html-icon.svg");
+        width: 50px;
+        height: 60px;
+      }
+      h1 {
+        @include h1_benefitStyles();
+      }
+      p {
+        @include p_benefitStyles();
+      }
+    }
+    .benefit4 {
+      span {
+        @include spanStyles();
+        background-image: url("/assets/icons/css-icon.svg");
+        width: 50px;
+        height: 60px;
+      }
+      h1 {
+        @include h1_benefitStyles();
+      }
+      p {
+        @include p_benefitStyles();
+      }
+    }
+  }
+}
+
+// ========================
+// SECTION #1 Styles
+// ========================

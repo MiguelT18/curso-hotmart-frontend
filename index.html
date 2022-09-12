@@ -6,48 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Curso Frontend Developer || Hotmart</title>
     <link rel="stylesheet" href="/css/style.css" />
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;700&display=swap");
+    </style>
   </head>
 
   <body>
-    <header>
-      <div class="discount-container">
-        <h1>El descuento del 50% termina en:</h1>
-        <div class="discount__timer-container">
-          <div class="block">
-            <div class="hours" id="hours">---</div>
-            <p>Horas</p>
-          </div>
-          <div class="block">
-            <div class="minutes" id="minutes">---</div>
-            <p>Minutos</p>
-          </div>
-          <div class="block">
-            <div class="seconds" id="seconds">---</div>
-            <p>Segundos</p>
-          </div>
+    <div class="discount-container">
+      <h1>El descuento del 50% termina en:</h1>
+      <div class="discount__timer-container">
+        <div class="block">
+          <div class="hours" id="hours">---</div>
+          <p>Horas</p>
+        </div>
+        <div class="block">
+          <div class="minutes" id="minutes">---</div>
+          <p>Minutos</p>
+        </div>
+        <div class="block">
+          <div class="seconds" id="seconds">---</div>
+          <p>Segundos</p>
         </div>
       </div>
-
-      <h1>
-        <bold>Aprende a programar páginas web desde cero</bold> haciendo uso de
-        HTML5 y aplicando estilos con CSS3,
-        <bold>convirtiéndote en un profesional.</bold>
-      </h1>
+    </div>
+    <header>
       <p>
-        <bold>Importante: </bold>Curso de metodología práctica para iniciar en
-        el mundo del desarrollo web de forma rápida con pilares sólidos.
-        <bold>Últimas versiones: HTML5 y CSS3</bold>
+        <b>Aprende a programar páginas web desde cero</b> haciendo uso de HTML5
+        y aplicando estilos con CSS3,
+        <b
+          >convirtiéndote en un profesional con alta demanda en sectores
+          tecnológicos.</b
+        >
+      </p>
+      <p>
+        <b>Importante: </b>Curso de metodología práctica para iniciar en el
+        mundo del desarrollo web de forma rápida con pilares sólidos.
+        <b>Últimas versiones: HTML5 y CSS3.</b>
       </p>
     </header>
 
     <main>
-      <section class="sectionStlye1">
-        <h1>Mira este video completo que preparamos para ti.</h1>
-        <video src="/assets/videos/mainFrontVideo.mp4"></video>
+      <section class="sectionStlye1 section1">
+        <h1 class="video-title">
+          Mira este video completo que preparamos para ti.
+        </h1>
+        <video src="/assets/videos/mainFrontVideo.mp4" controls></video>
 
-        <h2 class="section-title">
-          ¿Qué ventajas tiene para ti el tomar este curso?
-        </h2>
+        <h2>¿Qué ventajas tiene para ti el tomar este curso?</h2>
         <div class="benefit-container">
           <div class="benefit1">
             <span></span>
@@ -57,6 +63,7 @@
             </p>
           </div>
           <div class="benefit2">
+            <span></span>
             <h1>Codificar cualquier página</h1>
             <p>
               Aprenderás a Codificar cualquier página basándote en los
@@ -65,6 +72,7 @@
             </p>
           </div>
           <div class="benefit3">
+            <span></span>
             <h1>Escribir en HTML</h1>
             <p>
               Explorar este importante lenguaje de marcas escribiendo documentos
@@ -72,6 +80,7 @@
             </p>
           </div>
           <div class="benefit4">
+            <span></span>
             <h1>Aplicar estilos CSS3</h1>
             <p>
               Aprender a aplicar estilos de formato o embellecimiento de una
@@ -87,42 +96,47 @@
           HTML5 y CSS3?
         </h1>
         <div class="about-user-container">
-          <h1>¿Qué vas a lograr?</h1>
-          <span></span>
-          <p>
-            Iniciarte en la programación web de la forma correcta. Se han
-            preparado una serie de clases teóricas y prácticas que te permitirán
-            entender y aplicar los concpetos básicos y avanzados de HTML5. El
-            curso inicia en un nivel de complejidad bastante básico para
-            aquellos que están empezando en el mundo de la programación y
-            termina con explicaciones sobre CSS3, para ir aprendiendo a
-            otorgarle formato o belleza a nuestras páginas.
-          </p>
-          <span></span>
-          <p>
-            <bold>
-              Te sentirás totalmente preparado y animado al finalizar el curso
-            </bold>
-            y podrás aplicar estos conceptos en tus proyectos personales y
-            profesionales. El contenido del curso
-            <bold>está totalmente actualizado con la última versión</bold> de
-            los programas que vas a utilizar.
-          </p>
+          <div class="about-user__card1">
+            <h1>¿Qué vas a lograr?</h1>
+            <span></span>
+            <p>
+              Iniciarte en la programación web de la forma correcta. Se han
+              preparado una serie de clases teóricas y prácticas que te
+              permitirán entender y aplicar los concpetos básicos y avanzados de
+              HTML5. El curso inicia en un nivel de complejidad bastante básico
+              para aquellos que están empezando en el mundo de la programación y
+              termina con explicaciones sobre CSS3, para ir aprendiendo a
+              otorgarle formato o belleza a nuestras páginas.
+            </p>
 
-          <h1>¿Cómo lo vas a lograr?</h1>
-          <p>
-            Es importante que puedas seguir cada una de las clases, pausando
-            entre ellas las mismas paulatinamente para que puedas practicar de
-            manera secuencial la ejercitación desarrollada, bajo una secuencia
-            de hilo conductor, donde
-            <bold
-              >desde un nivel cero podrás ir aprendiendo las bases de HTML5 y
-              CSS3, hasta llegar a la última clase, donde podrás darte cuenta
-              que tienes un producto terminado,</bold
-            >
-            el cual lo podrás usar de referencia o de guía para ir emprendiendo
-            sobre tus proyectos personales.
-          </p>
+            <span></span>
+            <p>
+              <b>
+                Te sentirás totalmente preparado y animado al finalizar el curso
+              </b>
+              y podrás aplicar estos conceptos en tus proyectos personales y
+              profesionales. El contenido del curso
+              <b>está totalmente actualizado con la última versión</b> de los
+              programas que vas a utilizar.
+            </p>
+          </div>
+
+          <div class="about-user__card2">
+            <h1>¿Cómo lo vas a lograr?</h1>
+            <p>
+              Es importante que puedas seguir cada una de las clases, pausando
+              entre ellas las mismas paulatinamente para que puedas practicar de
+              manera secuencial la ejercitación desarrollada, bajo una secuencia
+              de hilo conductor, donde
+              <b
+                >desde un nivel cero podrás ir aprendiendo las bases de HTML5 y
+                CSS3, hasta llegar a la última clase, donde podrás darte cuenta
+                que tienes un producto terminado,</b
+              >
+              el cual lo podrás usar de referencia o de guía para ir
+              emprendiendo sobre tus proyectos personales.
+            </p>
+          </div>
         </div>
         <img
           src="/assets/images/html-css__icon.png"
@@ -222,7 +236,7 @@
             <img src="/assets/images/bonus5-img.png" alt="Módulo de CSS Grid" />
             <h2>Módulo de CSS Grid</h2>
             <p>
-              CSS Grid Layou permite crear rápidamente cuadrículas sencillas y
+              CSS Grid Layout permite crear rápidamente cuadrículas sencillas y
               potentes de forma prácticamente instantánea. También se destaca
               por permitir dividir una página en áreas o regiones principales,
               considerando la relación en términos de tamaño, posición, sin
@@ -232,18 +246,345 @@
             <h3>Valor $10</h3>
             <h4>¡Hoy gratis!</h4>
           </article>
-          <article class="bonus bonus6"></article>
+          <article class="bonus bonus6">
+            <h1>Bono #6</h1>
+            <img
+              src="/assets/images/bonus6-img.png"
+              alt="Módulo de Bootstrap-5"
+            />
+            <h2>Módulo de Bootstrap-5</h2>
+            <p>
+              Bootstrap-5 es un framework front-end utilizado para desarrollar
+              aplicaciones web y sitios mobile first, o sea con un layout que se
+              adapta a la pantalla del dispositivo utilizado por el usuario.
+              <br /><br />
+              En este bono aprenderás los fundamentos de esta tecnología y cómo
+              utilizarla, para ello crearás una Landing Page, bajo la técnica
+              Responsive Design, esta técnica se usa en la actualidad para tener
+              una misma web adaptada a los diferentes dispositivos: Computadora,
+              Tablet o Smartphone.
+            </p>
+            <h3>Valor $10</h3>
+            <h4>¡Hoy gratis!</h4>
+          </article>
         </div>
       </section>
 
-      <section class="sectionStyle1"></section>
+      <section class="sectionStyle1">
+        <h1 class="section-title">
+          Comienza de la forma más rápida y eficaz en el desarrollo web online y
+          <b>
+            aprende habilidades altamente demandadas en el mercado tecnológico.
+          </b>
+        </h1>
+        <img
+          src="/assets/images/curso-container.png"
+          alt="Imágen del curso completo más los bonos"
+        />
+        <img
+          src="/assets/images/onePayOnly.jpg"
+          alt="Imagen de un único pago sin mensualidades"
+        />
+        <button>
+          <span class="shadow"></span>
+          <span class="edge"></span>
+          <span class="front text"> Inscríbete al programa aquí </span>
+        </button>
+        <img
+          src="/assets/images/payment-methods.jpg"
+          alt="Los métodos de pago son: Visa, MasterCard, Discover Network, American Express y Paypal."
+        />
+        <h2>Obtendrás tu certificado al finalizar</h2>
+        <img
+          src="/assets/images/certificado-img.png"
+          alt="Imagen del certificado"
+        />
+        <h2>¿Qué opinan nuestros estudiantes?</h2>
+        <div class="testimony-container">
+          <div class="testimony-card">
+            <img
+              src="/assets/images/testimony-img1.png"
+              alt="Fotografía de Raúl Villamizar"
+            />
+            <h1>Raúl Villamizar</h1>
+            <p>
+              Tomar este curso de Introducción al Desarrollo Web fue de mis
+              mejores decisiones este año, ya que aprender habilidades
+              tecnológicas presenta una gran oportunidad en el mercado laboral
+              por la alta demanda de profesionales que existe, gracias Daniel
+              por tu excelente curso y gran entrega 10/10, seguiré mi proceso
+              contigo y la academia hasta ser un programador Full Stack.
+            </p>
+          </div>
+          <div class="testimony-card">
+            <img
+              src="/assets/images/testimony-img2.png"
+              alt="Fotografía de Raúl Villamizar"
+            />
+            <h1>Karimar Bracho</h1>
+            <p>
+              Pocas personas conozco con el verdadero don de enseñar y tu eres
+              una de ellas Daniel, estoy muy agradecida por crear este excelente
+              programa de tan alta calidad y muy accesible para quienes deseamos
+              crecer como profesionales útiles para los nuevos cambios
+              tecnológicos que cada día presenciamos. Ya que me apunté al curso
+              de JavaScript y recomiendo este al 100%.
+            </p>
+          </div>
+          <div class="testimony-card">
+            <img
+              src="/assets/images/testimony-img3.png"
+              alt="Fotografía de Raúl Villamizar"
+            />
+            <h1>Erick Velásquez</h1>
+            <p>
+              Este curso de Introducción al Desarrollo Web fue la mejor puerta
+              de entrada en este mundo para mí, estoy muy feliz de haberlo
+              cursado ya que fue muy práctico y sobre todo actualizado con las
+              últimas versiones de las tecnologías que aprendí. Gracias Daniel
+              por tu pedagogía al momento de enseñar, haces que todo sea muy
+              fácil de entender.
+            </p>
+          </div>
+        </div>
+      </section>
 
       <section class="sectionStyle2">
         <h1 class="section-title section-title__final">
           ¿Cuál es el contanido del curso?
         </h1>
+        <details>
+          <summary>Módulo #1: Bienvenida</summary>
+          <p>
+            Bienvenida y explicación de lo que aorenderás y la estructura del
+            curso.
+          </p>
+        </details>
+
+        <details>
+          <summary>Módulo #2: Fundamentos teóricos</summary>
+          <ul>
+            <li><b>Lección 1: </b>Visual Studio Code.</li>
+            <li><b>Lección 2: </b>¿Qué es HTML?</li>
+            <li><b>Lección 3: </b>¿Qué es un elemento HTML?</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>Módulo 3#: HTML5</summary>
+          <ul>
+            <li><b>Lección 4: </b>Etiquetas semánticas.</li>
+            <li><b>Lección 5: </b>Insertando imágenes.</li>
+            <li><b>Lección 6: </b>Rutas relativas y rutas absolutas.</li>
+            <li><b>Lección 7: </b>Trabajando con los vínculos.</li>
+            <li><b>Lección 8: </b>Etiquetas en bloque y etiquetas en línea.</li>
+            <li><b>Lección 9: </b>Introducción a formularios - Parte I.</li>
+            <li><b>Lección 10: </b>Introducción a formularios - Parte II.</li>
+            <li><b>Lección 11: </b>Incorporando multimedia.</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>Módulo 4#: CSS3</summary>
+          <ul>
+            <li><b>Lección 12: </b>Aplicando CSS en línea.</li>
+            <li><b>Lección 13: </b>Aplicando CSS Externo.</li>
+            <li><b>Lección 14: </b>Aplicando CSS Interna.</li>
+            <li><b>Lección 15: </b>Aplicando CSS Selectores.</li>
+            <li><b>Lección 16: </b>Introducción al mundo de los colores.</li>
+            <li><b>Lección 17: </b>Aplicando CSS a las fuentes.</li>
+            <li><b>Lección 18: </b>Colocando imágenes de fondo.</li>
+            <li><b>Lección 19: </b>Pseudo-Clases.</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>Bono #4: Flexbox</summary>
+          <ul>
+            <li><b>Parte 1: </b>Conceptos técnicos y aplicaciones.</li>
+            <li><b>Parte 2: </b>Práctica.</li>
+          </ul>
+        </details>
+
+        <details>
+          <summary>Bono #5: CSS Grid Layout</summary>
+          <p>Conceptos, aplicaciones y usos prácticos</p>
+        </details>
+
+        <details>
+          <summary>Bono #6: Bootstrap-5</summary>
+          <ul>
+            <li><b>Parte 1: </b>Conceptos técnicos y aplicaciones.</li>
+            <li><b>Parte 2: </b>Práctica.</li>
+          </ul>
+        </details>
+      </section>
+
+      <section>
+        <h1>¿Quién será tu mentor?</h1>
+        <img
+          src="/assets/images/producer-photo.jpg"
+          alt="Fotografía del productor"
+        />
+        <h2>Msc. Ángel Daniel Fuentes Segura</h2>
+        <h2>Licenciado en computación - Máster en Ciencias.</h2>
+        <p>
+          Ángel Fuentes es un apasionado y estudioso de la tecnología, que tiene
+          una gran vocación por la docencia, con más de 20 años de experiencia
+          como docente universitario en países como Venezuela y Argentina.
+          <br /><br />
+          Actualmente se desempeña como Mentor de Docentes y Profesor Avanzado
+          en Desarrollo Web Full Stack, en prestigiosas Startups - Buenos Aires
+          - Argentina.
+        </p>
+        <p><b>Fundador de </b>CEDAVILU Web Design.</p>
+        <img
+          src="/assets/images/webDesignEDAVI.png"
+          alt="Imagen del logotipo de EDAVI Web Design"
+        />
+      </section>
+
+      <section>
+        <h1 class="section-title">
+          ¿Qué pasa si el contenido del curso no te gusta?
+        </h1>
+        <p>No tienes ningún tipo de riesgo, no te preocupes.</p>
+        <img
+          src="/assets/images/guaranteeImg.png"
+          alt="Imagen de satisfacción garantizada 100% o la devolución de su dinero. "
+        />
+        <p>
+          Tienes 7 días de garantía total después de tu compra, para que pruebes
+          la calidad del contenido y veas si es para ti o no, si por alguna
+          razón no cumplimos con tus expectativas te devolveremos el 100% de tu
+          dinero sin hacer preguntas.
+        </p>
+      </section>
+
+      <section>
+        <h1 class="section-title">
+          Recuerda todo lo que vas a obtener al ingresar
+        </h1>
+        <div class="benefir-remember-container">
+          <div class="benefit-remember">
+            <span></span>
+            <h1>Curso completo</h1>
+            <p>
+              Accederás al curso de por vida, sin mensualidades y acceso a
+              futuras actualizaciones de forma gratuita.
+            </p>
+          </div>
+          <div class="benefit-remember">
+            <span></span>
+            <h1>Review del proyecto final</h1>
+            <p>
+              Accederás al proyecto final para ver el detalles de todo lo
+              desarrollado en clases y podrás utilizarlo como guía o portafolio.
+            </p>
+          </div>
+          <div class="benefit-remember">
+            <span></span>
+            <h1>repositorio en GitHub</h1>
+            <p>
+              Este constituye en un enlace a un repositorio en GITHUB, donde
+              podrás descargar todo el contenido del curso así como las
+              diferentes carpetas de lo trabajado en cada clase.
+            </p>
+          </div>
+          <div class="benefit-remember">
+            <span></span>
+            <h1>Comunidad de estudiantes</h1>
+            <p>
+              Podrás aclarar todas tus dudas, compartir avances y recibir
+              feedback de toda la comunidad.
+            </p>
+          </div>
+        </div>
+        <img
+          src="/assets/images/onePayOnly.jpg"
+          alt="Imagen de un único pago solamente"
+        />
+        <button>
+          <span class="shadow"></span>
+          <span class="edge"></span>
+          <span class="front text"> Inscríbete al programa aquí </span>
+        </button>
+        <img
+          src="/assets/images/payment-methods.jpg"
+          alt="Los métodos de pago son: Visa, MasterCard, Discover Network, American Express, Paypal."
+        />
+      </section>
+
+      <section>
+        <h1 class="section-title">Preguntas Frecuentes</h1>
+        <details>
+          <summary>¿Los Bonos tienen un costo adicional?</summary>
+          <p>
+            Todos los bonos que visualizas en esta página, por separado tienen
+            un costo, pero al inscribirte, los tendrás todo de forma gratuita.
+          </p>
+        </details>
+        <span></span>
+
+        <details>
+          <summary>¿En qué formato está el entrenamiento?</summary>
+          <p>
+            Introducción al Desarrollo Web es un curso compuesto por máster
+            classes pregrabadas en formato de video HD.
+          </p>
+        </details>
+        <span></span>
+
+        <details>
+          <summary>¿Cómo puedo acceder al entrenamiento?</summary>
+          <p>
+            Una vez realizado tu pago, recibirás un correo electrónico con las
+            instrucciones para acceder al área privada de alumnos dentro de la
+            plataforma deHotmart, podrás comenzar hoy mismo con tu entrenamiento
+            y recuerda que tienes acceso ilimitado al mismo tiempo.
+          </p>
+        </details>
+        <span></span>
+
+        <details>
+          <summary>¿Tengo que hacer pagos mensuales?</summary>
+          <p>
+            No, este entrenamiento es de un único pago, nunca tendrás que pagar
+            cuotas o pagos mensuales, y cuando hagamos actualizaciones, tendrás
+            acceso a ellas sin ningún costo adicional.
+          </p>
+        </details>
+        <span></span>
+
+        <details>
+          <summary>¿De qué manera se realizará el pago?</summary>
+          <p>
+            Las maneras con las que puedes pagar son: Tarjetas de crédito o
+            PayPal. Si deseas hacer el pago por otro medio, puedes comunicarte
+            con nuestro equipo para realizarlo.
+          </p>
+        </details>
+        <span></span>
       </section>
     </main>
+
+    <footer>
+      <p>
+        DESCARGOS DE RESPONSABILIDAD IMPORTANTES: Este sitio no es parte del
+        sitio web de Facebook. Además, este sitio no está respaldado por
+        Facebook de ninguna manera. FACEBOOK es una marca registrada de
+        FACEBOOK, inc. Sus resultados variarán y dependerán de muchos
+        factores... incluidos, entre todos sus antecedentes, experiencia y ética
+        laboral. Todos los negocios conllevan riesgos, esfuerzos y acciones
+        masivas y consistentes. Si no está dispuesto a aceptar eso, NO OBTENGA
+        ESTE CURSO. Al enviar su dirección de correo electrónico y número de
+        teléfono en sitio web, usted está autorizado a nuestra empresa a
+        enviarle mensajes informativos promocionales por correo electrónico,
+        llamadas telefónicas y mensajes de texto. Todos los ingresos y
+        representaciones de ingresos son solo declaraciones aspiracionales de su
+        potencial de ganancias.
+      </p>
+    </footer>
 
     <script src="/script.js"></script>
   </body>
