@@ -175,7 +175,10 @@ header {
     border-radius: 8px;
     font: {
       size: $txtSize-xsmall;
-      weight: $weight-thin;
+      weight: $weight-light;
+    }
+    b {
+      font-weight: bold;
     }
   }
 }

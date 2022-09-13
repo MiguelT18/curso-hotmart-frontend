@@ -115,7 +115,10 @@ header p:nth-child(2) {
   padding: 8px;
   border-radius: 8px;
   font-size: 1.1rem;
-  font-weight: 100;
+  font-weight: 300;
+}
+header p:nth-child(2) b {
+  font-weight: bold;
 }
 
 .discount-container {
