@@ -420,7 +420,7 @@ header p:nth-child(2) {
 .section4 .bonus-container {
   display: grid;
   justify-items: center;
-  gap: 38px;
+  gap: 46px;
   margin: 0 14px;
   padding: 38px 0;
 }
@@ -433,7 +433,7 @@ header p:nth-child(2) {
   text-align: center;
   background-color: white;
   position: relative;
-  padding-top: 34px;
+  padding-top: 38px;
   border-radius: 12px;
 }
 .section4 .bonus-container .bonus h1 {
@@ -444,14 +444,14 @@ header p:nth-child(2) {
   border-radius: 26px;
   position: absolute;
   top: -15px;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 700;
 }
 .section4 .bonus-container .bonus h2 {
   color: #f2622e;
   padding: 10px 0;
   margin: 0 14px;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .section4 .bonus-container .bonus p {
@@ -459,21 +459,21 @@ header p:nth-child(2) {
   text-align: justify;
   color: #6b7280;
   line-height: 150%;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 300;
 }
 .section4 .bonus-container .bonus h3 {
   color: #d60000;
   -webkit-text-decoration: line-through 2px solid red;
           text-decoration: line-through 2px solid red;
-  padding: 5px 0;
-  font-size: 1.2rem;
+  padding: 8px 0;
+  font-size: 1.3rem;
   font-weight: 700;
 }
 .section4 .bonus-container .bonus h4 {
   color: #339476;
   padding-bottom: 10px;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 
@@ -496,7 +496,7 @@ header p:nth-child(2) {
 .section5 h2 {
   padding: 22px 0;
   margin: 0 14px;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 700;
   text-transform: uppercase;
   text-align: center;
@@ -522,8 +522,8 @@ header p:nth-child(2) {
 .section5 .testimony-container .testimony-card h1 {
   color: #f2622e;
   padding-bottom: 10px;
-  font-weight: 700;
   font-size: 1.5rem;
+  font-weight: 700;
 }
 .section5 .testimony-container .testimony-card p {
   margin: 0 14px;
@@ -593,7 +593,7 @@ header p:nth-child(2) {
   color: #1e1e1e;
   text-align: center;
   padding-top: 13px;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: 700;
 }
 .section7 img:nth-child(2) {
@@ -603,7 +603,7 @@ header p:nth-child(2) {
   text-align: center;
   color: #1f92bf;
   padding-bottom: 8px;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .section7 h2:nth-child(4) {
@@ -611,14 +611,16 @@ header p:nth-child(2) {
   color: #1e1e1e;
   margin: 0 14px;
   padding-bottom: 8px;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 700;
 }
 .section7 p:nth-child(5) {
   color: #1e1e1e;
   text-align: justify;
+  line-height: 150%;
+  padding: 10px 0;
   margin: 0 14px;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 300;
 }
 .section7 p:nth-child(5) b {
@@ -647,7 +649,7 @@ header p:nth-child(2) {
   color: white;
   text-align: center;
   line-height: 150%;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 300;
 }
 .section8 img {

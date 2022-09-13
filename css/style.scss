@@ -467,7 +467,7 @@ header {
   .bonus-container {
     display: grid;
     justify-items: center;
-    gap: 38px;
+    gap: 46px;
     margin: 0 14px;
     padding: 38px 0;
     .bonus {
@@ -479,7 +479,7 @@ header {
       text-align: center;
       background-color: $just-white;
       position: relative;
-      padding-top: 34px;
+      padding-top: 38px;
       border-radius: 12px;
       h1 {
         text-transform: uppercase;
@@ -490,7 +490,7 @@ header {
         position: absolute;
         top: -15px;
         font: {
-          size: $txtSize-medium;
+          size: $txtSize-large;
           weight: $weight-bold;
         }
       }
@@ -499,7 +499,7 @@ header {
         padding: 10px 0;
         margin: 0 14px;
         font: {
-          size: $txtSize-small;
+          size: $txtSize-medium;
           weight: $weight-bold;
         }
       }
@@ -509,16 +509,16 @@ header {
         color: $black-soft__text;
         line-height: 150%;
         font: {
-          size: $txtSize-xsmall;
+          size: $txtSize-small;
           weight: $weight-light;
         }
       }
       h3 {
         color: #d60000;
         text-decoration: line-through 2px solid red;
-        padding: 5px 0;
+        padding: 8px 0;
         font: {
-          size: 1.2rem;
+          size: $txtSize-small;
           weight: $weight-bold;
         }
       }
@@ -526,7 +526,7 @@ header {
         color: #339476;
         padding-bottom: 10px;
         font: {
-          size: 1.6rem;
+          size: $txtSize-medium;
           weight: $weight-bold;
         }
       }
@@ -560,7 +560,7 @@ header {
     padding: 22px 0;
     margin: 0 14px;
     font: {
-      size: $txtSize-small;
+      size: $txtSize-medium;
       weight: $weight-bold;
     }
     text: {
@@ -588,8 +588,8 @@ header {
         color: $just-orange;
         padding-bottom: 10px;
         font: {
-          weight: $weight-bold;
           size: $txtSize-medium;
+          weight: $weight-bold;
         }
       }
       p {
@@ -673,7 +673,7 @@ header {
     text-align: center;
     padding-top: 13px;
     font: {
-      size: $txtSize-medium;
+      size: $txtSize-large;
       weight: $weight-bold;
     }
   }
@@ -685,7 +685,7 @@ header {
     color: $ocean-blue;
     padding-bottom: 8px;
     font: {
-      size: $txtSize-small;
+      size: $txtSize-medium;
       weight: $weight-bold;
     }
   }
@@ -695,19 +695,21 @@ header {
     margin: 0 14px;
     padding-bottom: 8px;
     font: {
-      size: $txtSize-xsmall;
+      size: $txtSize-small;
       weight: $weight-bold;
     }
   }
   p:nth-child(5) {
     color: $dark-black__text;
     text-align: justify;
+    line-height: 150%;
+    padding: 10px 0;
     b {
       font-weight: $weight-bold;
     }
     margin: 0 14px;
     font: {
-      size: $txtSize-xsmall;
+      size: $txtSize-small;
       weight: $weight-light;
     }
   }
@@ -738,7 +740,7 @@ header {
     text-align: center;
     line-height: 150%;
     font: {
-      size: $txtSize-xsmall;
+      size: $txtSize-small;
       weight: $weight-light;
     }
   }
