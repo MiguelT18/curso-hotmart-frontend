@@ -1,6 +1,6 @@
-let hours = 24;
-let minutes = 0;
-let seconds = 0;
+let hours = 6;
+let minutes = 32;
+let seconds = 20;
 
 //Definimos y ejecutamos los segundos
 function cargarSegundos() {
