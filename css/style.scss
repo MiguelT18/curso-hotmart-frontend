@@ -161,6 +161,7 @@ header {
   p:first-child {
     @include centerText();
     max-width: 770px;
+    line-height: 140%;
     font: {
       weight: $weight-regular;
       size: $txtSize-large;
@@ -173,6 +174,7 @@ header {
     margin: 18px auto;
     padding: 8px;
     border-radius: 8px;
+    line-height: 140%;
     font: {
       size: $txtSize-xsmall;
       weight: $weight-light;
@@ -194,12 +196,12 @@ header {
     font-weight: 300;
   }
   .discount__timer-container {
-    padding-top: 10px;
     display: flex;
-    margin: 0 auto;
     justify-content: center;
     gap: 20px;
     flex-wrap: wrap;
+    padding-top: 10px;
+    margin: 0 auto;
     .block {
       text-align: center;
       background-color: $just-orange;
@@ -238,7 +240,6 @@ header {
   justify-items: center;
   margin: 0 14px;
   .video-title {
-    max-width: 570px;
     color: $dark-black__text;
     font: {
       weight: $weight-bold;
@@ -255,19 +256,16 @@ header {
   }
   video {
     width: 100%;
-    max-width: 520px;
+    max-width: 600px;
   }
   h2 {
-    max-width: 415px;
     text-align: center;
     font-size: $txtSize-large;
     color: $dark-black__text;
     margin: 24px 0;
   }
   .benefit-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
     text-align: center;
     gap: 42px;
     margin-bottom: 20px;
@@ -474,6 +472,10 @@ header {
     gap: 46px;
     margin: 0 14px;
     padding: 38px 0;
+    padding: {
+      bottom: 38px;
+      top: 46px;
+    }
     .bonus {
       display: flex;
       flex-direction: column;
@@ -704,6 +706,7 @@ header {
     }
   }
   p:nth-child(5) {
+    max-width: 540px;
     color: $dark-black__text;
     text-align: justify;
     line-height: 150%;
@@ -719,6 +722,7 @@ header {
   }
   p:nth-child(6) {
     padding-top: 14px;
+    font-size: $txtSize-xsmall;
   }
 }
 

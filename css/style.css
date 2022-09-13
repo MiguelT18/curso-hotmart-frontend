@@ -103,6 +103,7 @@ header p:first-child {
   text-align: center;
   color: white;
   max-width: 770px;
+  line-height: 140%;
   font-weight: 400;
   font-size: 1.7rem;
 }
@@ -114,6 +115,7 @@ header p:nth-child(2) {
   margin: 18px auto;
   padding: 8px;
   border-radius: 8px;
+  line-height: 140%;
   font-size: 1.1rem;
   font-weight: 300;
 }
@@ -135,12 +137,12 @@ header p:nth-child(2) b {
   font-weight: 300;
 }
 .discount-container .discount__timer-container {
-  padding-top: 10px;
   display: flex;
-  margin: 0 auto;
   justify-content: center;
   gap: 20px;
   flex-wrap: wrap;
+  padding-top: 10px;
+  margin: 0 auto;
 }
 .discount-container .discount__timer-container .block {
   text-align: center;
@@ -185,7 +187,6 @@ header p:nth-child(2) b {
   margin: 0 14px;
 }
 .section1 .video-title {
-  max-width: 570px;
   color: #1e1e1e;
   font-weight: 700;
   font-size: 1.7rem;
@@ -196,19 +197,16 @@ header p:nth-child(2) b {
 }
 .section1 video {
   width: 100%;
-  max-width: 520px;
+  max-width: 600px;
 }
 .section1 h2 {
-  max-width: 415px;
   text-align: center;
   font-size: 1.7rem;
   color: #1e1e1e;
   margin: 24px 0;
 }
 .section1 .benefit-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  display: grid;
   text-align: center;
   gap: 42px;
   margin-bottom: 20px;
@@ -430,6 +428,8 @@ header p:nth-child(2) b {
   gap: 46px;
   margin: 0 14px;
   padding: 38px 0;
+  padding-bottom: 38px;
+  padding-top: 46px;
 }
 .section4 .bonus-container .bonus {
   display: flex;
@@ -622,6 +622,7 @@ header p:nth-child(2) b {
   font-weight: 700;
 }
 .section7 p:nth-child(5) {
+  max-width: 540px;
   color: #1e1e1e;
   text-align: justify;
   line-height: 150%;
@@ -635,6 +636,7 @@ header p:nth-child(2) b {
 }
 .section7 p:nth-child(6) {
   padding-top: 14px;
+  font-size: 1.1rem;
 }
 
 .section8 {

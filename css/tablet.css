@@ -1,3 +1,8 @@
-body {
-  background-color: red;
+@import url("/css/tablet.css");
+.discount-container .discount__timer-container {
+  gap: 50px;
+}
+
+header p:nth-child(2) {
+  margin-top: 30px;
 }/*# sourceMappingURL=tablet.css.map */

@@ -1,3 +1,65 @@
-body {
-  background-color: green;
+@import url("/css/tablet.css");
+.section1 .video-title {
+  font-size: 2.2rem;
+}
+.section1 h2 {
+  font-size: 2rem;
+}
+.section1 .benefit-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.section2 .about-user-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+  margin-top: 28px;
+  padding: 0 24px;
+}
+.section2 .about-user-container .about-user__card1 {
+  margin: 0;
+}
+
+.section4 .bonus-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+.section4 .bonus-container .bonus2 p {
+  margin-bottom: 80px;
+}
+.section4 .bonus-container .bonus5 p {
+  margin-bottom: 170px;
+}
+
+.section5 h2:nth-child(6) {
+  padding-top: 40px;
+  font-size: 2rem;
+}
+.section5 h2:nth-child(8) {
+  font-size: 2rem;
+}
+.section5 .testimony-container {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.section6 details {
+  margin-left: 100px;
+}
+
+.section7 h1 {
+  font-size: 2rem;
+}
+
+.section8 h1 {
+  font-size: 2rem;
+}
+
+.section9 h1:first-child {
+  font-size: 2rem;
+}
+.section9 .benefit-remember-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.section10 details {
+  margin-left: 100px;
 }/*# sourceMappingURL=desktop.css.map */
