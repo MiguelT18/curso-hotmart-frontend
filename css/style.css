@@ -174,8 +174,8 @@ header p:nth-child(2) b {
   width: 100%;
   text-align: center;
   background-color: #f2622e;
-  font-size: 1.5rem;
-  padding: 8px 14px;
+  font-size: 1.7rem;
+  padding: 12px 14px;
   color: white;
 }
 
@@ -188,7 +188,7 @@ header p:nth-child(2) b {
   max-width: 570px;
   color: #1e1e1e;
   font-weight: 700;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   text-align: center;
   text-transform: uppercase;
   padding-top: 16px;
@@ -201,7 +201,7 @@ header p:nth-child(2) b {
 .section1 h2 {
   max-width: 415px;
   text-align: center;
-  font-size: 1.6rem;
+  font-size: 1.7rem;
   color: #1e1e1e;
   margin: 24px 0;
 }
@@ -210,7 +210,7 @@ header p:nth-child(2) b {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  gap: 34px;
+  gap: 42px;
   margin-bottom: 20px;
 }
 .section1 .benefit-container .benefit1 span {
@@ -234,7 +234,8 @@ header p:nth-child(2) b {
 .section1 .benefit-container .benefit1 p {
   max-width: 320px;
   color: #6b7280;
-  font-size: 1.1rem;
+  line-height: 150%;
+  font-size: 1.3rem;
   font-weight: 300;
 }
 .section1 .benefit-container .benefit2 span {
@@ -258,7 +259,8 @@ header p:nth-child(2) b {
 .section1 .benefit-container .benefit2 p {
   max-width: 320px;
   color: #6b7280;
-  font-size: 1.1rem;
+  line-height: 150%;
+  font-size: 1.3rem;
   font-weight: 300;
 }
 .section1 .benefit-container .benefit3 span {
@@ -282,7 +284,8 @@ header p:nth-child(2) b {
 .section1 .benefit-container .benefit3 p {
   max-width: 320px;
   color: #6b7280;
-  font-size: 1.1rem;
+  line-height: 150%;
+  font-size: 1.3rem;
   font-weight: 300;
 }
 .section1 .benefit-container .benefit4 span {
@@ -306,7 +309,8 @@ header p:nth-child(2) b {
 .section1 .benefit-container .benefit4 p {
   max-width: 320px;
   color: #6b7280;
-  font-size: 1.1rem;
+  line-height: 150%;
+  font-size: 1.3rem;
   font-weight: 300;
 }
 
@@ -325,7 +329,7 @@ header p:nth-child(2) b {
 }
 .section2 .about-user-container .about-user__card1 h1 {
   color: #f2622e;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   margin-bottom: 14px;
   text-align: center;
   text-transform: uppercase;
@@ -376,8 +380,8 @@ header p:nth-child(2) b {
 }
 .section2 .about-user-container .about-user__card2 h1 {
   color: #f2622e;
-  font-size: 1.7rem;
-  margin-bottom: 14px;
+  font-size: 1.5rem;
+  margin-bottom: 0;
   text-align: center;
   text-transform: uppercase;
 }
@@ -644,8 +648,9 @@ header p:nth-child(2) b {
 .section8 h1 {
   text-align: center;
   color: white;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   padding-bottom: 16px;
+  margin: 0 14px;
 }
 .section8 p {
   margin: 0 14px;
@@ -666,9 +671,11 @@ header p:nth-child(2) b {
 .section9 h1:first-child {
   text-align: center;
   padding: 14px 0;
-  margin-bottom: 6px;
   color: #1e1e1e;
-  font-size: 1.5rem;
+  margin-right: 14px;
+  margin-left: 14px;
+  margin-bottom: 6px;
+  font-size: 1.7rem;
 }
 .section9 .benefit-remember-container {
   display: grid;
@@ -679,9 +686,9 @@ header p:nth-child(2) b {
   text-align: center;
 }
 .section9 .benefit-remember-container .benefit-remember h1 {
-  padding-top: 6px;
+  padding-top: 8px;
   color: #f2622e;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   font-weight: 700;
 }
 .section9 .benefit-remember-container .benefit-remember p {
@@ -689,7 +696,7 @@ header p:nth-child(2) b {
   color: #6b7280;
   margin: 0 14px;
   padding: 6px 0;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   font-weight: 300;
 }
 .section9 .benefit-remember-container .benefit-remember1 span {

@@ -142,8 +142,8 @@ button:focus:not(:focus-visible) {
   width: 100%;
   text-align: center;
   background-color: $just-orange;
-  font-size: $txtSize-medium;
-  padding: 8px 14px;
+  font-size: $txtSize-large;
+  padding: 12px 14px;
   color: $just-white;
 }
 
@@ -242,7 +242,7 @@ header {
     color: $dark-black__text;
     font: {
       weight: $weight-bold;
-      size: 1.6rem;
+      size: $txtSize-large;
     }
     text: {
       align: center;
@@ -260,7 +260,7 @@ header {
   h2 {
     max-width: 415px;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: $txtSize-large;
     color: $dark-black__text;
     margin: 24px 0;
   }
@@ -269,7 +269,7 @@ header {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 34px;
+    gap: 42px;
     margin-bottom: 20px;
 
     @mixin h1_benefitStyles() {
@@ -286,9 +286,10 @@ header {
     @mixin p_benefitStyles() {
       max-width: 320px;
       color: $black-soft__text;
+      line-height: 150%;
       font: {
-        size: $txtSize-xsmall;
-        weight: 300;
+        size: $txtSize-small;
+        weight: $weight-light;
       }
     }
 
@@ -363,10 +364,10 @@ header {
   .about-user-container {
     padding: 0 14px;
 
-    @mixin aboutUser__titleStyles() {
+    @mixin aboutUser__titleStyles($margin-bottom) {
       color: $just-orange;
-      font-size: $txtSize-large;
-      margin-bottom: 14px;
+      font-size: $txtSize-medium;
+      margin-bottom: $margin-bottom;
       text: {
         align: center;
         transform: uppercase;
@@ -391,7 +392,7 @@ header {
       width: 100%;
       max-width: 510px;
       h1 {
-        @include aboutUser__titleStyles();
+        @include aboutUser__titleStyles(14px);
       }
 
       // span "número 1"
@@ -420,7 +421,7 @@ header {
       width: 100%;
       max-width: 510px;
       h1 {
-        @include aboutUser__titleStyles();
+        @include aboutUser__titleStyles(0);
       }
       p {
         @include aboutUser__textStyles();
@@ -734,8 +735,9 @@ header {
   h1 {
     text-align: center;
     color: $just-white;
-    font-size: $txtSize-medium;
+    font-size: $txtSize-large;
     padding-bottom: 16px;
+    margin: 0 14px;
   }
   p {
     margin: 0 14px;
@@ -762,10 +764,14 @@ header {
   h1:first-child {
     text-align: center;
     padding: 14px 0;
-    margin-bottom: 6px;
     color: $dark-black__text;
+    margin: {
+      right: 14px;
+      left: 14px;
+      bottom: 6px;
+    }
     font: {
-      size: $txtSize-medium;
+      size: $txtSize-large;
     }
   }
   .benefit-remember-container {
@@ -775,10 +781,10 @@ header {
     .benefit-remember {
       text-align: center;
       h1 {
-        padding-top: 6px;
+        padding-top: 8px;
         color: $just-orange;
         font: {
-          size: $txtSize-small;
+          size: $txtSize-medium;
           weight: $weight-bold;
         }
       }
@@ -788,7 +794,7 @@ header {
         margin: 0 14px;
         padding: 6px 0;
         font: {
-          size: $txtSize-xsmall;
+          size: $txtSize-small;
           weight: $weight-light;
         }
       }
