@@ -1,0 +1,97 @@
+@import url("/css/tablet.css");
+
+// section #1 Styles
+.section1 {
+  .video-title {
+    font-size: 2.2rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .benefit-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+// section #2 Styles
+.section2 {
+  .about-user-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    margin-top: 28px;
+    padding: 0 24px;
+    .about-user__card1 {
+      margin: 0;
+    }
+  }
+}
+
+// section #4 Styles
+.section4 {
+  .bonus-container {
+    grid-template-columns: repeat(2, 1fr);
+    .bonus2 {
+      p {
+        margin-bottom: 80px;
+      }
+    }
+    .bonus5 {
+      p {
+        margin-bottom: 170px;
+      }
+    }
+  }
+}
+
+// section #5 Styles
+.section5 {
+  h2:nth-child(6) {
+    padding-top: 40px;
+    font-size: 2rem;
+  }
+  h2:nth-child(8) {
+    font-size: 2rem;
+  }
+  .testimony-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+// section #6 Styles
+.section6 {
+  details {
+    margin-left: 100px;
+  }
+}
+
+// section #7 Styles
+.section7 {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+// section #8 Styles
+.section8 {
+  h1 {
+    font-size: 2rem;
+  }
+}
+
+// section #9 Styles
+.section9 {
+  h1:first-child {
+    font-size: 2rem;
+  }
+  .benefit-remember-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+// section #10 Styles
+.section10 {
+  details {
+    margin-left: 100px;
+  }
+}
