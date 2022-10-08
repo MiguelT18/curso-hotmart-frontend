@@ -8,6 +8,8 @@ let reloj = {
   seconds: 5,
 };
 
+localStorage.setItem("contador", JSON.stringify(reloj));
+
 //Definimos y ejecutamos los segundos
 function cargarSegundos() {
   let txtSeconds;
