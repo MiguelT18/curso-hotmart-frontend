@@ -1,35 +1,68 @@
-/* ? ----- MAIN ----- */
+/* ? ----- MAIN -----
 
 /* ? ----- Cuenta Regresiva ----- */
-#discount-container {
+.discount-container {
+  max-width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
   align-items: center;
   color: #fff;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin-bottom: 100px;
 }
-
 .simply-section {
+  width: 80px;
+  max-width: 320px;
+}
+.simply-section > div {
   width: 100%;
-  min-width: 80px;
-  padding: 8px;
-  background-color: #f2622e;
-  border-radius: 8px;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 5px 10px;
-}
-
-.simply-amount {
-  display: block;
+  flex-direction: column;
   text-align: center;
-  font-size: clamp(1rem 2.5vw 2rem);
-  font-weight: 700;
+}
+.simply-amount {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.simply-word {
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 300;
+  color: #6b7280;
+}
+.simply-amount::after {
+  position: absolute;
+  top: 10px;
+  display: block;
+  content: ":";
+}
+.simply-days-section .simply-amount::after {
+  display: none;
 }
 
-.simply-word {
-  font-weight: 300;
-  font-size: 18px;
+@media screen and (min-width: 570px) {
+  .simply-amount::after {
+    display: none;
+  }
+  .discount-container {
+    height: 78px;
+    gap: 20px;
+  }
+  .simply-section {
+    width: 90px;
+    background-color: #f2622e;
+    border-radius: 6px;
+    padding: 4px;
+  }
+  .simply-amount {
+    font-size: 2rem;
+    margin-bottom: 0;
+  }
+  .simply-word {
+    font-size: 1.1rem;
+    color: #fff;
+  }
+  header {
+    padding-top: 86px;
+  }
 }

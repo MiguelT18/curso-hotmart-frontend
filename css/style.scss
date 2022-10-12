@@ -35,6 +35,9 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 62.5%;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 // estilos al botón principal
 
@@ -154,7 +157,7 @@ header {
   clip-path: polygon(0 0, 100% 0, 100% 88%, 50% 100%, 0 88%);
 
   padding: {
-    top: 120px;
+    top: 72px;
     bottom: 60px;
   }
 
