@@ -9,6 +9,10 @@ body {
   font-size: 62.5%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 button {
   position: relative;
   border: none;
@@ -96,7 +100,7 @@ header {
   justify-items: center;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 50% 100%, 0 88%);
           clip-path: polygon(0 0, 100% 0, 100% 88%, 50% 100%, 0 88%);
-  padding-top: 72px;
+  padding-top: 86px;
   padding-bottom: 60px;
 }
 header p:first-child {
