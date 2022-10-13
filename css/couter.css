@@ -1,9 +1,15 @@
-/* ? ----- MAIN -----
+/* -------------- MAIN -------------- */
+.discount-container button {
+  display: none;
+}
+.discount-container h2 {
+  display: none;
+}
 
 /* ? ----- Cuenta Regresiva ----- */
 .discount-container {
   max-width: 100%;
-  height: 80px;
+  height: 60px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,12 +46,14 @@
   display: none;
 }
 
+/* -------------- TABLET design -------------- */
+
 @media screen and (min-width: 570px) {
   .simply-amount::after {
     display: none;
   }
   .discount-container {
-    height: 78px;
+    height: 90px;
     gap: 20px;
   }
   .simply-section {
@@ -63,6 +71,6 @@
     color: #fff;
   }
   header {
-    padding-top: 86px;
+    padding-top: 100px;
   }
 }

@@ -1,4 +1,20 @@
 @import url("/css/tablet.css");
+.discount-container button {
+  display: block;
+  margin: 12px 0;
+  width: 320px;
+}
+
+.discount-container h2 {
+  display: inline-block;
+  padding-top: 12px;
+  text-align: center;
+}
+
+.offer {
+  margin-right: 20px;
+}
+
 .section1 .video-title {
   font-size: 2.2rem;
 }
@@ -20,6 +36,12 @@
   margin: 0;
 }
 
+.section4 div article:nth-child(2n-1) {
+  margin-left: 230px;
+}
+.section4 div article:nth-child(2n-2) {
+  margin-right: 230px;
+}
 .section4 .bonus-container {
   grid-template-columns: repeat(2, 1fr);
 }

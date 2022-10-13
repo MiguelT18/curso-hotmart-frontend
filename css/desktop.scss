@@ -1,5 +1,20 @@
 @import url("/css/tablet.css");
 
+// Discount container styles
+.discount-container button {
+  display: block;
+  margin: 12px 0;
+  width: 320px;
+}
+.discount-container h2 {
+  display: inline-block;
+  padding-top: 12px;
+  text-align: center;
+}
+.offer {
+  margin-right: 20px;
+}
+
 // section #1 Styles
 .section1 {
   .video-title {
@@ -29,6 +44,13 @@
 
 // section #4 Styles
 .section4 {
+  div article:nth-child(2n - 1) {
+    margin-left: 230px;
+  }
+  div article:nth-child(2n - 2) {
+    margin-right: 230px;
+  }
+
   .bonus-container {
     grid-template-columns: repeat(2, 1fr);
     .bonus2 {

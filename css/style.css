@@ -100,7 +100,7 @@ header {
   justify-items: center;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 88%, 50% 100%, 0 88%);
           clip-path: polygon(0 0, 100% 0, 100% 88%, 50% 100%, 0 88%);
-  padding-top: 86px;
+  padding-top: 68px;
   padding-bottom: 60px;
 }
 header p:first-child {
@@ -399,6 +399,8 @@ header p:nth-child(2) b {
 .section2 img {
   width: 100%;
   max-width: 370px;
+  display: block;
+  margin: 0 auto;
 }
 
 .section3 {
